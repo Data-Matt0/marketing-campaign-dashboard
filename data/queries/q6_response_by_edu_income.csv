@@ -1,0 +1,16 @@
+education,income_group,total_customers,total_responses,response_rate_percent
+PhD,High,201,52,25.87
+Master,High,140,30,21.43
+Basic,High,5,1,20
+Graduation,High,456,85,18.64
+2n Cycle,High,72,13,18.06
+PhD,Mid,251,44,17.53
+Master,Low,39,6,15.38
+PhD,Low,34,5,14.71
+Graduation,Low,187,23,12.3
+Master,Mid,191,21,10.99
+2n Cycle,Low,48,5,10.42
+Graduation,Mid,484,44,9.09
+2n Cycle,Mid,83,4,4.82
+Basic,Low,47,1,2.13
+Basic,Mid,2,0,0
