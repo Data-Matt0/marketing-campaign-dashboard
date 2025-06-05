@@ -12,7 +12,7 @@ A data storytelling project exploring customer response behavior to a wine retai
 
 ---
 
-📊 Key Insights
+## 📊 Key Insights
 
 🎓 Education & Response
 
