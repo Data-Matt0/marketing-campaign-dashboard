@@ -14,32 +14,32 @@ A data storytelling project exploring customer response behavior to a wine retai
 
 ## 📊 Key Insights
 
-🎓 Education & Response
+🎓 **Education & Response**
 
 Higher education levels (Master’s, PhD) correlate with stronger response rates.
 SQL for grouping, Python/Seaborn for visualization.
 
-💰 Income Matters
+💰 **Income Matters**
 
 Mid-to-high income brackets show the highest campaign engagement.
 Income-binned via SQL, visualized with bar plots.
 
-🍷 Wine Spending & Loyalty
+🍷 **Wine Spending & Loyalty**
 
 Responders spend more on wine, suggesting higher brand loyalty.
 Average spending calculated in SQL, plotted in Python.
 
-🛍️ Web Savvy = More Responsive
+🛍️ **Web Savvy = More Responsive**
 
 Frequent online shoppers are more likely to respond.
 Behavioral metrics grouped in SQL, visualized simply.
 
-🧠 Combined Behaviors Reveal Segments
+🧠 **Combined Behaviors Reveal Segments**
 
 High income + high wine spenders show clear response patterns.
 Multi-criteria filtering in SQL, shown via scatter & dual-axis plots.
 
-📈 Education + Income = Top Predictors
+📈 **Education + Income = Top Predictors**
 
 Combining both gives a strong customer profile.
 SQL crosstab analysis, shown with clustered bar charts.
