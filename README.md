@@ -54,18 +54,18 @@ marketing-campaign-dashboard/
 
 ## 📈 Key Visuals & Insights
 
-### 🎯 1. **Response Rate by Education**
+### 1. **Response Rate by Education**
 ![Education Response](visuals/response_rate_by_education.png)
 > Customers with **PhDs and Master’s degrees** show the highest campaign engagement.
 
 ---
 
-### 🏷 2. **Income vs Response**
+### 2. **Income vs Response**
 ![Income Response](visuals/response_rate_by_income.png)
 > Customers in the **high income bracket** are significantly more responsive.
 
 
-### 🏷 3. **Response by Education and Income**
+### 3. **Response by Education and Income**
 ![Combined Response](visuals/response_by_education_and_income.png)
 > **PhD and Master's degree holders** respond highest across income levels.
 ---
