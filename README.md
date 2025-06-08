@@ -27,26 +27,27 @@ This data storytelling project explores how customer demographics, behavior, and
 
 ## 📂 Project Structure
 
+```
 marketing-campaign-dashboard/
-├── data/ # Cleaned CSV data and query result tables
+├── data/                         # Cleaned CSV data and query result tables
 ├── notebooks/
-│ ├── q1_visuals.ipynb # response by education
-│ ├── q2_visuals.ipynb # response by income
-│ ├── q3_visuals.ipynb # wine spending vs response
-│ ├── q4_visuals.ipynb # web purchases vs response
-│ ├── q5_visuals.ipynb # high spenders responded
-│ └── q6_visuals.ipynb # response by edu income
+│   ├── q1_visuals.ipynb          # Response by education
+│   ├── q2_visuals.ipynb          # Response by income
+│   ├── q3_visuals.ipynb          # Wine spending vs. response
+│   ├── q4_visuals.ipynb          # Web purchases vs. response
+│   ├── q5_visuals.ipynb          # High spenders who responded
+│   └── q6_visuals.ipynb          # Response by education and income
 ├── sql/
-│ └── q1_response_by_education.sql # SQL code blocks (follows order of notebooks)
+│   └── q1_response_by_education.sql  # SQL code blocks (follows notebook order)
 ├── visuals/
-│ ├── avg_wine_vs_web_purchases_by_education.png
-│ ├── response_by_education_and_income.png
-│ ├── response_rate_by_education.png
-│ ├── response_rate_by_income.png
-│ ├── web_purchasers_vs_response.png
-│ └── wine_spending_vs_response.png
+│   ├── avg_wine_vs_web_purchases_by_education.png
+│   ├── response_by_education_and_income.png
+│   ├── response_rate_by_education.png
+│   ├── response_rate_by_income.png
+│   ├── web_purchasers_vs_response.png
+│   └── wine_spending_vs_response.png
 └── README.md
-
+```
 
 
 ---
