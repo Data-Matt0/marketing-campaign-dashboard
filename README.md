@@ -62,8 +62,12 @@ marketing-campaign-dashboard/
 
 ### 🏷 2. **Income vs Response**
 ![Income Response](visuals/response_rate_by_income.png)
-> Customers in the **mid to upper income brackets ($50k–$100k+)** are significantly more responsive.
+> Customers in the **high income bracket** are significantly more responsive.
 
+
+### 🏷 3. **Response by Education and Income**
+![Combined Response](visuals/response_by_education_and_income.png)
+> **PhD and Master's degree holders** respond highest across income levels.
 ---
 
 ## 🧠 Business Recommendations
