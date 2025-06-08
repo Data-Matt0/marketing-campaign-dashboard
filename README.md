@@ -72,8 +72,8 @@ marketing-campaign-dashboard/
 
 ## 🧠 Business Recommendations
 
-- 📌 **Target high-income, educated, middle-aged customers** with tailored campaigns.
-- 📨 Test campaign timing and message personalization across responsive segments.
+- 📌 **Target high-income, educated customers** with tailored campaigns.
+- 📨 Test campaign timing and message personalization **across edu segments** because high income individuasl are present across edu levels.
 
 ---
 
@@ -88,7 +88,7 @@ marketing-campaign-dashboard/
 
 ## 💼 About the Author
 
-**Matt O.**  
+**Data-Matt.**  
 Aspiring Data Analyst with strong SQL + Python skills. MBA focused on data storytelling and business impact.  
 🔗 [Portfolio](https://github.com/Data-Matt0) | ✉️ [Email](mailto:matt@realtech.one) | [LinkedIn](https://www.linkedin.com/in/matt-burkhart-mba/)
 
