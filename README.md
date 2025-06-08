@@ -1,77 +1,95 @@
-# 🍷 Wine Marketing Campaign Analytics
+# 🍷 Marketing Campaign Dashboard: Wine Retailer Campaign Analysis
 
-A data storytelling project exploring customer response behavior to a wine retailer's marketing campaign using **SQLite for querying** and **Python (Colab) for visuals**.
-
----
-
-## 🔍 Summary
-
-- **Data**: Customer demographics, purchasing habits, and campaign response
-- **Tools**: SQLite, Python (Pandas, Seaborn, Matplotlib), Google Colab, GitHub
-- **Goal**: Uncover who responds to marketing — and why
+This data storytelling project explores how customer demographics, behavior, and preferences influence responses to a wine retailer's marketing campaign. The analysis is conducted using SQL for data querying and Python for visualization (via Google Colab). The goal is to uncover actionable marketing insights and build an interactive dashboard framework.
 
 ---
 
-## 📊 Key Insights
+## 🚀 Project Objectives
 
-🎓 **Education & Response**
-
-Higher education levels (Master’s, PhD) correlate with stronger response rates.
-(SQL for grouping, Python/Seaborn for visualization)
-
-💰 **Income Matters**
-
-Mid-to-high income brackets show the highest campaign engagement.
-(Income-binned via SQL, visualized with bar plots)
-
-🍷 **Wine Spending & Loyalty**
-
-Responders spend more on wine, suggesting higher brand loyalty.
-(Average spending calculated in SQL, plotted in Python)
-
-🛍️ **Web Savvy = More Responsive**
-
-Frequent online shoppers are more likely to respond.
-(Behavioral metrics grouped in SQL, visualized simply)
-
-🧠 **Combined Behaviors Reveal Segments**
-
-High income + high wine spenders show clear response patterns.
-(Multi-criteria filtering in SQL, shown via scatter & dual-axis plots)
-
-📈 **Education + Income = Top Predictors**
-
-Combining both gives a strong customer profile.
-(SQL crosstab analysis, shown with clustered bar charts)
+- Analyze customer response rates by **demographic** and **behavioral segments**
+- Identify **high-performing customer segments** for targeted marketing
+- Visualize trends in product preference, income brackets, age, and education
+- Use storytelling dashboards to communicate results to stakeholders
 
 ---
 
-## ⚙️ How to Use
+## 🛠 Tools & Technologies
 
-1. Browse `.sql` files in `/sql`
-2. Open CSV query outputs in `/data/queries`
-3. View charts in `/visuals`
-5. Run the notebook via [Google Colab](https://colab.research.google.com/) or locally
-
----
-
-## 📌 Built For
-
-- Demonstrating SQL + Python fluency
-- Telling a data-driven marketing story
-- Supporting future work in analytics, portfolio dev, or capstone projects
+| Tool        | Purpose                          |
+|-------------|----------------------------------|
+| SQLite      | Querying and filtering customer data |
+| Pandas      | Data manipulation and analysis   |
+| Seaborn / Matplotlib | Data visualization        |
+| Google Colab| Notebook-based storytelling and dashboarding |
+| Git / GitHub| Version control and portfolio publishing |
 
 ---
 
-## ✅ Tools
+## 📂 Project Structure
 
-SQLite • DB Browser • Pandas • Seaborn • Matplotlib • Colab • GitHub
+marketing-campaign-dashboard/
+├── data/ # Cleaned CSV data and query result tables
+├── notebooks/
+│ ├── q1_visuals.ipynb # response by education
+│ ├── q2_visuals.ipynb # response by income
+│ ├── q3_visuals.ipynb # wine spending vs response
+│ ├── q4_visuals.ipynb # web purchases vs response
+│ ├── q5_visuals.ipynb # high spenders responded
+│ └── q6_visuals.ipynb # response by edu income
+├── sql/
+│ └── q1_response_by_education.sql # SQL code blocks (follows order of notebooks)
+├── visuals/
+│ ├── avg_wine_vs_web_purchases_by_education.png
+│ ├── response_by_education_and_income.png
+│ ├── response_rate_by_education.png
+│ ├── response_rate_by_income.png
+│ ├── web_purchasers_vs_response.png
+│ └── wine_spending_vs_response.png
+└── README.md
+
+
 
 ---
 
-## 📎 Tags
+## 📈 Key Visuals & Insights
 
-`#SQL` `#DataViz` `#Python` `#Marketing` `#CustomerInsights`
+### 🎯 1. **Response Rate by Education**
+![Education Response](visuals/response_rate_by_education.png)
+> Customers with **PhDs and Master’s degrees** show the highest campaign engagement.
 
+---
 
+### 🏷 2. **Income vs Response**
+![Income Response](visuals/response_rate_by_income.png)
+> Customers in the **mid to upper income brackets ($50k–$100k+)** are significantly more responsive.
+
+---
+
+## 🧠 Business Recommendations
+
+- 📌 **Target high-income, educated, middle-aged customers** with tailored campaigns.
+- 📨 Test campaign timing and message personalization across responsive segments.
+
+---
+
+## ✅ How to Use This Repo
+
+1. Clone the repo or open notebooks in [Google Colab](https://colab.research.google.com/)
+2. Upload the `marketing_campaign_cleaned.csv` file (from `data/`)
+3. Run the notebooks to recreate the visual analyses
+4. Use SQL scripts in `sql/` to run your own segment-level queries
+
+---
+
+## 💼 About the Author
+
+**Matt O.**  
+Aspiring Data Analyst with strong SQL + Python skills. MBA focused on data storytelling and business impact.  
+🔗 [Portfolio](https://github.com/Data-Matt0) | ✉️ [Email](mailto:matt@realtech.one) | [LinkedIn](https://www.linkedin.com/in/matt-burkhart-mba/)
+
+---
+
+## 📌 License
+
+This project is open-source under the MIT License.
 
